@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Echoes of Charminar: The Treasure Hunt</title>
+  <link rel="stylesheet" href="/hunt/shilparamam/style.css">
+</head>
+<body>
+  <div class="map-background">
+    <h1 class="title"></h1>
+    <h1 class="title"></h1>
+
+
+    <div class="clue-container">
+      <div id="clue1" class="clue-box">
+        <h2>Clue 1</h2>
+        <p class="clue-text"></p>
+        <p class="clue-text">Among the trees, where birds find rest, look for a lady dressed her best. She has no voice but stands so tall, I guard the secret near her shawl.</p>
+        <input type="text" id="answer1" placeholder="Enter your answer">
+        <button id="submit1">Submit</button>
+        <div class="hint-buttons">
+          <button id="freeHint1">Free Hint</button>
+          <button id="paidHint1">Paid Hint</button>
+        </div>
+        <p id="feedback1" class="feedback"></p>
+        <p id="hint1" class="hint-text hidden"></p>
+      </div>
+
+      <div id="clue2" class="clue-box hidden">
+        <h2>Clue 2</h2>
+        <p class="clue-text"></p>
+        <p class="clue-text">Colors and patterns, all stitched with care, find the art that people wear. Near fabrics hanging from the wall, your next clue hides where sarees call.</p>
+        <input type="text" id="answer2" placeholder="Enter your answer">
+        <button id="submit2">Submit</button>
+        <div class="hint-buttons">
+          <button id="freeHint2">Free Hint</button>
+          <button id="paidHint2">Paid Hint</button>
+        </div>
+        <p id="feedback2" class="feedback"></p>
+        <p id="hint2" class="hint-text hidden"></p>
+      </div>
+
+      <div id="clue3" class="clue-box hidden">
+        <h2>Clue 3</h2>
+        <p class="clue-text"></p>
+        <p class="clue-text">Where water flows in gentle streams, and boats glide by like peaceful dreams. Paddle your way where the ripples play, your next clue waits where the oars sway<p>
+        <input type="text" id="answer3" placeholder="Enter your answer">
+        <button id="submit3">Submit</button>
+        <div class="hint-buttons">
+          <button id="freeHint3">Free Hint</button>
+          <button id="paidHint3">Paid Hint</button>
+        </div>
+        <p id="feedback3" class="feedback"></p>
+        <p id="hint3" class="hint-text hidden"></p>
+      </div>
+
+      <div id="nextLocation" class="hidden">
+        <button id="nextLocationBtn">Please give us your Feedback</button>
+      </div>
+
+      <div id="imageUploadPopup" class="hidden">
+        <h2>Upload a Picture</h2>
+        <input type="file" id="imageUpload">
+        <button id="uploadImage">Upload</button>
+        <p id="uploadFeedback" class="feedback"></p>
+      </div>
+
+      <div id="suggestionPopup" class="hidden">
+        <p>Check this out!</p>
+        <ul id="suggestionList"></ul>
+        <button id="nextClue">Move to Next Clue</button>
+      </div>
+    </div>
+  </div>
+  <script src="/hunt/shilparamam/script.js"></script>
+</body>
+</html>
